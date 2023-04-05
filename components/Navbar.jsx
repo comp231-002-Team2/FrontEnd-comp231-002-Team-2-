@@ -29,7 +29,7 @@ const Navbar = () => {
             <li className= 'p-4 border-b border-gray-300'>channel</li>
             <li className= 'p-4 border-b border-gray-300'>contact us</li>
             <li className= 'p-4 border-b border-gray-300'>login</li>
-            <li className= 'p-4 border-b border-gray-300'>sign up</li>
+            <li className= 'p-4 border-b border-gray-300'>sign up!</li>
             </ul>
         </div>
     </div>
