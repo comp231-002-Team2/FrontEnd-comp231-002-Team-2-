@@ -9,7 +9,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'community-image': "url('../public/assets/communityImage.jpg')",
+        'toronto-image': "url('../public/assets/torontoImage.jpg')",
+      }
+    },
   },
   plugins: [],
 }
