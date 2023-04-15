@@ -5,6 +5,8 @@ import communityImage from "../public/assets/communityImage.jpg";
 import Image from 'next/image';
 import Link from 'next/link';
 
+
+
 const Main = () => {
     const [nav, setNav] = useState(false)
     const handleNav = () => {
@@ -74,10 +76,10 @@ const Main = () => {
                 <Link href='/'>
                     <li className= "p-4 border-b border-gray-300">Contact Us</li>
                 </Link>
-                <Link href='/'>
+                <Link href="/login">
                     <li className="p-4 border-b border-gray-300">Login</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/signup'>
                     <li className= "p-4 border-b border-gray-300">Sign Up</li>
                 </Link>                          
             </ul>
