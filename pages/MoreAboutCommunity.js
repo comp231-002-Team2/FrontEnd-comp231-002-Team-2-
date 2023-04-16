@@ -19,7 +19,7 @@ export default function PostCommunity() {
           <div className={styles.box1}></div>
           <a className={styles.content}>Content</a>
           <div className={styles.box2}></div>
-          <button className={styles.returnBack}>Return Back</button>
+          <Link href="/display"  className={styles.returnBack}>Return Back</Link>
         
       </div>
       <Navbar />
