@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Main from '@/components/Main'
+import Popular_display from '@/components/Popular_display'
+
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />
+      <Popular_display />
     </>
   )
 }
+
+
