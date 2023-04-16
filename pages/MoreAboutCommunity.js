@@ -5,7 +5,7 @@ export default function PostCommunity() {
   return (
     <>
       <div>
-        <body >
+        
         
           <a className={styles.GlobalCommunity}>Global Community</a>
           <a className={styles.location}>City, Ontario, Canada</a>
@@ -20,7 +20,7 @@ export default function PostCommunity() {
           <a className={styles.content}>Content</a>
           <div className={styles.box2}></div>
           <button className={styles.returnBack}>Return Back</button>
-        </body>
+        
       </div>
       <Navbar />
     </>
