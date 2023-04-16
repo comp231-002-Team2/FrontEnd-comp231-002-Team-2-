@@ -97,8 +97,8 @@ const ContactForm = () => {
         letterSpacing: '0em',
         textAlign: 'right',
         position: 'fixed',
-        top: '5px',
-        left: '400px'
+        top: '-5px',
+        left: '300px'
         }}>
       <h1>START POSTING COMMUNITY</h1>
       </div>  
@@ -106,8 +106,8 @@ const ContactForm = () => {
       <div style={{ 
         fontWeight:30,
         position: 'fixed',
-        top: '150px',
-        left: '400px'
+        top: '120px',
+        left: '300px'
         }}>
   <div style={{width: '45%'}}>
     <label>
@@ -162,28 +162,28 @@ const ContactForm = () => {
     <br />
     <label>
       DESCRIPTION<br/>
-      <textarea rows="6" cols="40" type='description' value={description} onChange={handleDescriptionChange} required style={{backgroundColor: 'lightgray'}}/>
+      <textarea rows="4" cols="40" type='description' value={description} onChange={handleDescriptionChange} required style={{backgroundColor: 'lightgray'}}/>
     </label>
   </div>
   <div style={{ 
         fontWeight:30,
         position: 'fixed',
-        top: '150px',
-        right: '400px'
+        top: '120px',
+        right: '220px'
         }}>
     <h2>CONTENT</h2>
     <textarea rows="20" cols="80" type='message' value={message} onChange={handleMessageChange} required style={{backgroundColor: 'lightgray'}}/>
     <br />
-    <button type="submit" style={{
+    <Link href="/MoreAboutCommunity" type="submit" style={{
       position: 'absolute',
       width: '205px',
       height: '38px',
       left: '350px',
-      top: '550px',
+      top: '510px',
       background: '#EC7777'
       }}>
   POST NOW
-</button>
+</Link>
   </div>
 </div>
 
