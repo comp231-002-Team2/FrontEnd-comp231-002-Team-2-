@@ -106,12 +106,12 @@ const Login = () => {
         <br></br>
         <br></br>
 
-        <p style={{ backgroundColor: '#D9D9D9' }}>Already have an account? <a href='/login' className=" text-[#00AFFA]" >Log In</a></p>
+        <p style={{ backgroundColor: '#D9D9D9' }}>Already have an account? <Link href='/login' className=" text-[#00AFFA]" >Log In</Link></p>
         
         </fieldset>
 
       </form>
-      <a href='/contactus' className="whitespace-pre-wrap absolute top-[670px] left-[1220px] w-[118x] h-[28px] text-[#00AFFA]">Contact Us</a>
+      <Link href='/contactus' className="whitespace-pre-wrap absolute top-[670px] left-[1220px] w-[118x] h-[28px] text-[#00AFFA]">Contact Us</Link>
 
 
             <div onClick={handleNav} className= 'block md:hidden'>

@@ -90,13 +90,13 @@ const Login = () => {
         <br></br>
         <br></br>
 
-        <p style={{ backgroundColor: '#D9D9D9' }}>New International student? <a href='/signup' className=" text-[#00AFFA]" >Create account</a></p>
+        <p style={{ backgroundColor: '#D9D9D9' }}>New International student? <Link href='/signup' className=" text-[#00AFFA]" >Create account</Link></p>
         
         </fieldset>
 
       </form>
 
-      <a href='/contactus' className="whitespace-pre-wrap absolute top-[670px] left-[1220px] w-[118x] h-[28px] text-[#00AFFA]">Contact Us</a>
+      <Link href='/contactus' className="whitespace-pre-wrap absolute top-[670px] left-[1220px] w-[118x] h-[28px] text-[#00AFFA]">Contact Us</Link>
         
             <div onClick={handleNav} className= 'block md:hidden'>
             { nav ? <AiOutlineClose size ={20}/> : <AiOutlineMenu size={20} /> }
