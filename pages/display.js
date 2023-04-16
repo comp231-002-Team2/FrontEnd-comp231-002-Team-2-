@@ -132,12 +132,12 @@ const display = () => {
 
             </form>
             
-            <Link href="/" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[645px] left-[380px] w-[80px] h-[20px] ">Read More</Link>
-            <Link href="/" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[645px] left-[736px] w-[80px] h-[20px] ">Read More</Link>
-            <Link href="/" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[645px] left-[1092px] w-[80px] h-[20px] ">Read More</Link>
-            <Link href="/" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[1060px] left-[380px] w-[80px] h-[20px] ">Read More</Link>
-            <Link href="/" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[1060px] left-[736px] w-[80px] h-[20px] ">Read More</Link>
-            <Link href="/" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[1060px] left-[1092px] w-[80px] h-[20px] ">Read More</Link>
+            <Link href="/MoreAboutCommunity" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[645px] left-[380px] w-[80px] h-[20px] ">Read More</Link>
+            <Link href="/MoreAboutCommunity" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[645px] left-[736px] w-[80px] h-[20px] ">Read More</Link>
+            <Link href="/MoreAboutCommunity" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[645px] left-[1092px] w-[80px] h-[20px] ">Read More</Link>
+            <Link href="/MoreAboutCommunity" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[1060px] left-[380px] w-[80px] h-[20px] ">Read More</Link>
+            <Link href="/MoreAboutCommunity" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[1060px] left-[736px] w-[80px] h-[20px] ">Read More</Link>
+            <Link href="/MoreAboutCommunity" style={{ backgroundColor: '#00AFFA' }} className="whitespace-pre-wrap absolute top-[1060px] left-[1092px] w-[80px] h-[20px] ">Read More</Link>
 
         
             <div onClick={handleNav} className= 'block md:hidden'>
