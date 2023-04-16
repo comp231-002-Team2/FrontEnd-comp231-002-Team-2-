@@ -47,8 +47,8 @@ const display = () => {
 
 
 
-            <p className="underline font-bold text-[#000000] text-3xl top-[88px] left-[530px] w-[506px] h-[41px] whitespace-pre-wrap absolute" >Welcom All Students in Toronto</p>
-
+            <p className=" font-bold text-[#000000] text-3xl top-[88px] left-[530px] w-[506px] h-[41px] whitespace-pre-wrap absolute" >Welcom All Students in Toronto</p>
+            <p className=' top-[115px] left-[500px] w-[506px] h-[41px] whitespace-pre-wrap absolute' style={{ borderBottomWidth: '3px', borderBottomStyle: 'solid', borderBottomColor: 'black' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
         
             <form className="whitespace-pre-wrap absolute top-[303px] left-[376px] w-[270px] h-[370px] border border-black">
   <img src="/assets/popular/1.jpg" alt="Your Image" />
