@@ -45,10 +45,10 @@ const Login = () => {
                 <Link href='/'>
                     <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Contact Us</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/login'>
                     <li className="whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Login</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/signup'>
                     <div className="bg-[#ec7777] h-30">
                         <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Sign Up</li>
                     </div>
@@ -106,12 +106,12 @@ const Login = () => {
         <br></br>
         <br></br>
 
-        <p style={{ backgroundColor: '#D9D9D9' }}>Already have an account? <a href='/login' className=" text-[#00AFFA]" >Log In</a></p>
+        <p style={{ backgroundColor: '#D9D9D9' }}>Already have an account? <Link href='/login' className=" text-[#00AFFA]" >Log In</Link></p>
         
         </fieldset>
 
       </form>
-      <a href='/contactus' className="whitespace-pre-wrap absolute top-[670px] left-[1220px] w-[118x] h-[28px] text-[#00AFFA]">Contact Us</a>
+      <Link href='/contactus' className="whitespace-pre-wrap absolute top-[670px] left-[1220px] w-[118x] h-[28px] text-[#00AFFA]">Contact Us</Link>
 
 
             <div onClick={handleNav} className= 'block md:hidden'>
