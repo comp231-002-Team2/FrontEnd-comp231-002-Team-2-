@@ -45,10 +45,10 @@ const Login = () => {
                 <Link href='/'>
                     <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Contact Us</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/login'>
                     <li className="whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Login</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/signup'>
                     <div className="bg-[#ec7777] h-30">
                         <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Sign Up</li>
                     </div>
