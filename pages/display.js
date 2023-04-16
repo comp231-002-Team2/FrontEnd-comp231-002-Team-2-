@@ -29,10 +29,10 @@ const display = () => {
                 <Link href='/display'>
                     <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Community Display</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/chat'>
                     <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Channel</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/contact'>
                     <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Contact Us</li>
                 </Link>
                 <Link href='/login'>
@@ -149,10 +149,10 @@ const display = () => {
                 <Link href='/display'>
                     <li className= "p-4 border-b border-gray-300">Community Display</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/chat'>
                     <li className= "p-4 border-b border-gray-300">Channel</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/contact'>
                     <li className= "p-4 border-b border-gray-300">Contact Us</li>
                 </Link>
                 <Link href="/login">
