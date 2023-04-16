@@ -32,16 +32,22 @@ const ChatBox = () => {
               </Link>     
           </ul>
 
-          <form className="whitespace-pre-wrap absolute top-[150px] left-auto right-auto w-[864px] h-[490px] border border-blue-400">
+          <form className="whitespace-pre-wrap absolute top-[150px] left-[350px] right-auto w-[864px] h-[490px] border border-gray-400">
 
     <div style={{ display: "flex", height: "100%" }}>
       <div style={{ flex: "1", backgroundColor: "#F5F5F5", padding: "20px" }}>
         <h2>User Directory</h2>
+        <p>____________________________</p>
         <ul>
+            <br></br>
           <li>User 1</li>
+          <br></br>
           <li>User 2</li>
+          <br></br>
           <li>User 3</li>
+          <br></br>
           <li>User 4</li>
+          <br></br>
           <li>User 5</li>
         </ul>
       </div>
