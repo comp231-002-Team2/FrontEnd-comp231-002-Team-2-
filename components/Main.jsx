@@ -17,7 +17,7 @@ const Main = () => {
               <h1 className= "whitespace-pre-wrap w-[340px] font-['Sarabun'] text-[25px] leading-[0.9] font-bold text-left uppercase text-black">FRIENDLY COMMUNITY</h1>             
           </div>      
                 <ul className='hidden md:flex'>
-                    <Link href='/'>
+                    <Link href='/display'>
                         <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Community Display</li>
                     </Link>
                     <Link href='/'>
@@ -66,7 +66,7 @@ const Main = () => {
         <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r boder-r-gray-900 bg-blue-100 ease-in-out duration-500' : 'fixed left-[-100%] '  }>
         <h1 className= 'w-full text-3xl font-bold text-[black] m-4'>FRIENDLY COMMUNITY</h1>
             <ul className='uppercase p-4'>
-                <Link href='/'>
+                <Link href='/display'>
                     <li className= "p-4 border-b border-gray-300">Community Display</li>
                 </Link>
                 <Link href='/'>
