@@ -111,7 +111,7 @@ const Login = () => {
         </fieldset>
 
       </form>
-      <Link href='/contactus' className="whitespace-pre-wrap absolute top-[670px] left-[1220px] w-[118x] h-[28px] text-[#00AFFA]">Contact Us</Link>
+      <Link href='/contact' className="whitespace-pre-wrap absolute top-[670px] left-[1220px] w-[118x] h-[28px] text-[#00AFFA]">Contact Us</Link>
 
 
             <div onClick={handleNav} className= 'block md:hidden'>

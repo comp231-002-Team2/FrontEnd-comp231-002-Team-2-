@@ -20,7 +20,8 @@ const Main = () => {
           router.asPath  === '/global' || 
           router.asPath  === '/language' || 
           router.asPath  === '/mentorship' || 
-          router.asPath  === '/career' 
+          router.asPath === '/career' ||
+          router.asPath === '/create'
         ) {
             setNavBg('transparent')
             setlinkColor('#ecf0f3')
@@ -61,7 +62,7 @@ const Main = () => {
                         </div>
                     </Link>     
                 </ul>
-        <p className="whitespace-pre-wrap absolute top-[690px] left-[95px] w-[1201px] h-[194px] font-['Sarabun'] text-[100px] leading-[0.9] font-bold text-left uppercase">
+        <p className="whitespace-pre-wrap absolute top-[550px] left-[95px] w-[1201px] h-[194px] font-['Sarabun'] text-[100px] leading-[0.9] font-bold text-left uppercase">
         <span className="whitespace-pre-wrap w-[1201px] h-[194px] font-['Sarabun'] text-[100px] leading-[0.9] font-bold text-left uppercase text-white">
           Friendly
         </span>
@@ -84,7 +85,11 @@ const Main = () => {
         <span className="whitespace-pre-wrap w-[1201px] h-[194px] font-['Sarabun'] text-[100px] leading-[0.9] font-bold text-left uppercase text-[#ec7777]">
           TORONTO
         </span>
-        </p>
+        <br />
+        <Link href='/create'>                      
+             <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-xl px-20 py-3 text-center mr-2 mb-2">Create Community</button>           
+        </Link>
+        </p>  
         <div onClick={handleNav} className= 'block md:hidden'>
             { nav ? <AiOutlineClose size ={20}/> : <AiOutlineMenu size={20} /> }
         </div>
