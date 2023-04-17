@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Main from '@/components/Main'
 import Popular_display from '@/components/Popular_display'
+import Footer from '@/components/Footer'
 
 
 
@@ -20,7 +21,10 @@ export default function Home() {
       </Head>
       <Main />
       <Popular_display />
+      <Footer/>
+     
     </>
+   
   )
 }
 

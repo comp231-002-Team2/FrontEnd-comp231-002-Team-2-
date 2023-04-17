@@ -1,22 +1,47 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'; 
 import torontoImage from "../public/assets/torontoImage.jpg";
 import communityImage from "../public/assets/communityImage.jpg";
 import Image from 'next/image';
 import Link from 'next/link';
+import { useAmp } from 'next/amp';
+import { useRouter } from 'next/router';
+
 
 const Main = () => {
-    const [nav, setNav] = useState(false)
+    const [nav, setNav] = useState(false);
+    const [shadow, setShadow] = useState(false);
+    const [navBg, setNavBg] = useState('#ecf0f3')
+    const [linkColor, setlinkColor ] = useState('#1f2937')
+    const router = useRouter()
+
+    useEffect(()=>{
+        if(
+          router.asPath  === '/global' || 
+          router.asPath  === '/language' || 
+          router.asPath  === '/mentorship' || 
+          router.asPath  === '/career' 
+        ) {
+            setNavBg('transparent')
+            setlinkColor('#ecf0f3')
+        } else{
+            setNavBg('#ecf0f3')
+            setlinkColor('#ecf0f3')
+        }
+
+    },[router])
+
     const handleNav = () => {
-        setNav(!nav)
-    }
+        setNav(!nav) 
+    };
     return (
         <div className="bg-[url('../public/assets/communityImage.jpg')] bg-custom-image bg-cover h-screen bg-no-repeat top-[-91px]">
-        <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-2 text-black">
+        <div   className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-2 text-black" >
+           
           <div className="w-28 bg-blue-300">
               <h1 className= "whitespace-pre-wrap w-[340px] font-['Sarabun'] text-[25px] leading-[0.9] font-bold text-left uppercase text-black">FRIENDLY COMMUNITY</h1>             
           </div>      
-                <ul className='hidden md:flex'>
+                <ul style={{color: `${linkColor}`}}  className='hidden md:flex'>
                     <Link href='/display'>
                         <li className= "whitespace-pre-wrap p-4 font-['Sarabun'] text-[20px] leading-[0.9] font-bold text-left text-black">Community Display</li>
                     </Link>
